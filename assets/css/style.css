@@ -1,0 +1,178 @@
+html, body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 2;
+    color: grey;
+    text-align: left;
+}
+
+body {
+    background-color: whitesmoke;
+    padding: 15px;
+}
+
+main {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.jd_text_30 {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    left: 20px;
+    bottom: 0px;
+}
+
+.jd_text_12 {
+    font-size: 12px;
+}
+
+p {
+    padding: 5px 0;
+}
+
+.jd_conrainer_left {
+    max-width: 34%;
+    background-color: white;
+}
+
+.jd_conrainer_right {
+    background: whitesmoke;
+    flex: 0 0 66.66%;
+    padding-left: 15px;
+    max-width: 70%;
+}
+
+.jd_box_right_top {
+    background: white;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+.jd_box_right_bottom {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background: white;
+}
+
+.jd_container_img {
+    position: relative;
+}
+
+/*падінг в середині контеінера*/
+.jd_container {
+    padding: 10px 20px;
+}
+
+i {
+    margin-right: 10px;
+    color: mediumseagreen;
+    font-size: 18px;
+}
+
+.jd_opasity {
+    opacity: 0.60;
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+.jd_grey {
+    border-radius: 16px;
+    background-color: #f1f1f1;
+}
+
+.jd_green {
+    background-color: mediumseagreen;
+    text-align: center;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 16px;
+}
+
+.jd_green_adobePhotoshop {
+    width: 90%;
+}
+
+.jd_green_Photography {
+    width: 80%;
+}
+
+.jd_green_Illustrator {
+    width: 75%;
+}
+
+.jd_green_Media {
+    width: 50%;
+}
+
+.jd_green_English {
+    width: 100%;
+    height: 24px;
+}
+
+.jd_green_Spanish {
+    width: 50%;
+    height: 24px;
+}
+
+.jd_green_German {
+    width: 25%;
+    height: 24px;
+}
+
+.fa-suitcase {
+    font-size: 30px;
+}
+
+.jd_text_16 {
+    font-size: 16px;
+}
+
+.jd_color_green {
+    color: mediumseagreen;
+}
+
+.jd_gren_box {
+    font-weight: 400;
+    border-radius: 4px;
+    padding: 3px 8px;
+    background-color: #009688;
+    color: white;
+    text-align: center;
+}
+
+.jd_color_black {
+    color: black;
+}
+
+footer {
+    background-color: #009688;
+    text-align: center;
+}
+
+footer i, p {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(69, 245, 245);
+}
